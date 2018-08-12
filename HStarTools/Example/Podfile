@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HStarTools_Example' do
+  pod 'HStarTools', :path => '../'
+
+  target 'HStarTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
